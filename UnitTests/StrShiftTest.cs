@@ -54,5 +54,13 @@ namespace UnitTests
             StrShift result = input == 2;
             Assert.IsTrue(result == "ftmicroso");
         }
+
+        [TestMethod]
+        public void StrShift__NullException__ExpectedResultEmptyString()
+        {
+            StrShift input = null;
+            StrShift result = input == 2;
+            Assert.IsTrue(result == string.Empty);
+        }
     }
 }
