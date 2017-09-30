@@ -14,6 +14,7 @@ namespace Microsoft_excercise_4
 
             Console.WriteLine(result);
             Console.WriteLine(result2);
+            Console.ReadKey();
         }
     }
 }
